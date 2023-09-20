@@ -4,13 +4,40 @@
 @import 'tailwindcss/utilities';
 
 
-#header-toolbar, #cart-contents {
+#header-toolbar {
     display: flex;
     justify-content: space-between;
 }
 
+/* #cart-contents{
+    display: flex;
+    justify-content: space-between;
+} */
 #card-item{
     align-items: center;
+}
+
+#removebutton {
+    display: flex;
+    justify-content: space-between;
+}
+
+#drawer1 {
+    min-height: 100%; /* Equivalent to min-h-full */
+    max-width: 80rem; /* Equivalent to max-w-7xl */
+    margin-left: auto; /* Equivalent to mx-auto */
+    margin-right: auto; /* Equivalent to mx-auto */
+    border-left: 1px solid #e2e8f0; /* Equivalent to border-x */
+    border-right: 1px solid #e2e8f0; /* Equivalent to border-x */
+}
+
+#card-button{
+    margin-bottom: 4px;
+}
+
+#button-ele {
+    display: flex;
+    justify-content: space-between;
 }
 
 html, body { height: 100%; }
